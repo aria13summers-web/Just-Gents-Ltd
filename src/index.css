@@ -1,0 +1,28 @@
+:root {
+  --color-forest: #013D24;
+  --color-gold: #D5B05A;
+  --color-charcoal: #242725;
+  --color-ivory: #F4F0E6;
+  --color-evergreen: #102B20;
+  --color-stone: #B8B2A5;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--color-charcoal);
+  background: var(--color-ivory);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+body, button, a { cursor: default; }
+button, input, textarea, select { font: inherit; }
+button { border: 0; }
+img { display: block; max-width: 100%; }
+a { color: inherit; }
+
+@media (pointer: fine) {
+  body, a, button { cursor: none; }
+}
